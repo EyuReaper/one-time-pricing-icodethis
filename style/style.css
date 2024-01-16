@@ -1,0 +1,56 @@
+body {
+  background-color: #402b3a;
+}
+.background {
+  background-color: #ff9bd2;
+  border: 1px solid transparent;
+  margin: 30px 20px 10px 500px;
+  padding: 2px 10px 20px 30px;
+  border-radius: 5%;
+  width: 480px;
+  height: 500px;
+}
+header {
+  font-size: 30px;
+  font-style: bold;
+}
+.container {
+  color: #402b3a;
+  background-color: white;
+  margin: 100px 50px 100px 30px;
+  padding: 30px 200px 200px 100px;
+  width: 150px;
+  height: 300px;
+  border: 1px solid transparent;
+  border-radius: 5%;
+  align-items: center;
+  width: 250px;
+}
+.zipcode {
+  background-color: #ff9bd2;
+  border: 1px solid transparent;
+  padding: 15px 280px 10px 20px;
+  margin: 0px 0px 10px 10px;
+  align-content: space-between;
+}
+input[value="check"] {
+  align-items: center;
+  padding: 15px 20px 15px 20px;
+  background-color: white;
+  border-radius: 5%;
+  border: transparent;
+}
+input[value="BUY ONLINE"],
+[value="PICK UP IN STORE"] {
+  padding: 15px 120px 15px 120px;
+  border-radius: 10px;
+  border: transparent;
+}
+input[value="BUY ONLINE"] {
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+input[value="PICK UP IN STORE"] {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
